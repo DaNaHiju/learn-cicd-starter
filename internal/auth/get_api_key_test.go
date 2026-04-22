@@ -68,3 +68,7 @@ func TestGetAPIKey(t *testing.T) {
 		})
 	}
 }
+
+func TestForceFail(t *testing.T) {
+	t.Errorf("this test is intentionally broken")
+}
